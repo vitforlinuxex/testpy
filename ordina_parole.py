@@ -1,5 +1,9 @@
 #GNAAAA!!!
 #SBAGLIATO
+#print(dir(str))
+#help(str.upper)
+#print("ciao".upper)
+
 print("Inserire parole, quando voi smettere premi 0.")
 lista_parole=[]
 
