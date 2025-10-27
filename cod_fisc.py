@@ -23,19 +23,19 @@ cognome_maiusc = cognome.upper()
 print(nome_maiusc)
 print(cognome_maiusc)
 
-codice_ficale = ""
+codice_fiscale = ""
 contatore = 0
 
 for lettera in cognome_maiusc:
     if lettera not in "AEIOU":
-        codice_ficale += lettera
+        codice_fiscale += lettera
         contatore +=1
         if contatore == 3: break
 for lettera in cognome_maiusc:
-    if lettera in "AEIOU" and len(codice_ficale)<3:
-        codice_ficale += lettera
-while len(codice_ficale) <3:
-    codice_ficale += "X"
+    if lettera in "AEIOU" and len(codice_fiscale)<3:
+        codice_fiscale += lettera
+while len(codice_fiscale) <3:
+    codice_fiscale += "X"
         
 cons_nome = ""
 indici_nome = [0,2,3]
@@ -46,20 +46,20 @@ for lettera in nome_maiusc:
         
 if len(cons_nome) < 4:
     for i in range(len(cons_nome)):
-        codice_ficale += cons_nome[i]
+        codice_fiscale += cons_nome[i]
 if len(cons_nome) >= 4:
     for i in [0,2,3]:
-        codice_ficale += cons_nome[i]
+        codice_fiscale += cons_nome[i]
     
 for lettera in nome_maiusc:
-    if lettera in "AEIOU" and len(codice_ficale)<6:
-        codice_ficale += lettera
+    if lettera in "AEIOU" and len(codice_fiscale)<6:
+        codice_fiscale += lettera
 
-while len(codice_ficale) <6:
-    codice_ficale += "X"
+while len(codice_fiscale) <6:
+    codice_fiscale += "X"
     
 
-codice_ficale += anno[2:]
+codice_fiscale += anno[2:]
 
         
-print(codice_ficale)
+print(codice_fiscale)
