@@ -12,6 +12,8 @@ while True:
         cognome = cognome_multi.replace(" ", "")
         break
     else: print("Errore riprova")
+
+#anche qui
         
 #print(nome_cognome.split())
 #nome,cognome = nome_cognome.split()[0],nome_cognome.split()[1]
@@ -62,4 +64,5 @@ while len(codice_fiscale) <6:
 codice_fiscale += anno[2:]
 
         
+
 print(codice_fiscale)
