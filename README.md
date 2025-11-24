@@ -13,3 +13,7 @@ https://lab.comuni-italiani.it/download/comuni.html
 con anche stati esteri
 
 https://www.gardainformatica.it/database-comuni-italiani#
+
+calcolo lettera di controllo
+
+https://alus.it/pubs/CodiceFiscale/index.php?lang=it
